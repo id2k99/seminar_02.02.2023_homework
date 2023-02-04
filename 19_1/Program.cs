@@ -17,8 +17,7 @@ int minus;
 if (str.Contains("-")) {
     minus = str.IndexOf('-');
     str = str.Remove(minus, minus+1);
-    Console.WriteLine(str);
-
+    
     num = str.ToCharArray();
     
     if (num.Length < 5 || num.Length >5){
